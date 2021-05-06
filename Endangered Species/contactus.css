@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 7rem;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #008ced;
+}
+
+.fa-instagram{
+  color: #517fa4;
+}
+
+.fa-youtube{
+  color: #bb0000;
+}
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover{
+  color: #d5d5d5;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+.navbar{
+  padding: .8rem;
+  background-color: black;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+
+/*---large PROBLEM : google map is not responsive, cant altered using CSS--*/
+@media (max-width: 992px) {
+  .location h2, h4, p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+.map {
+  width: 500px;
+  height: 500px;
+}
+
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+  }
+
+/*---small --*/
+@media (max-width: 768px) {
+.location h2, p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.map {
+  width: 75%;
+  height: 70%;
+}
+
+.display-4{
+  font-size: 200%;
+}
+
+.social a{
+  padding: 1.2rem;
+  font-size: 2.5em;
+}
+
+}
+
+/*---small --*/
+@media (max-width: 576px) {
+
+.display-4{
+  font-size: 160%;
+}
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 100%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.social a{
+  padding: .7rem;
+  font-size: 5em;
+}
+
+.display-4{
+  font-size: 300%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

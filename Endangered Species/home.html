@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>Complete Bootstrap 4 Website Layout</title> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="homeStyle.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
+  <div class="container"><a href="home.html" class="navbar-brand"><b>MMF</b></a>
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="home.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+
+
+        <li class="nav-item dropdown"><a id="navbarDropdown" href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">Animals</a>
+          	<div aria-labelledby="navbarDropdown" class="dropdown-menu">
+	           	<a href="animal1.html" class="dropdown-item">Amur Leopard</a>
+     	     	<a href="animal2.html" class="dropdown-item">Sea Turtle</a>
+     	     	<a href="animal3.html" class="dropdown-item">Bornean Orang Utan</a>
+     	     	<a href="animal4.html" class="dropdown-item">Black Rhino</a>
+          	</div>
+        </li>
+        <li class="nav-item"><a href="aboutus.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="wayspreserve.html" class="nav-link">Preservation</a></li>
+        <li class="nav-item"><a href="contactus.html" class="nav-link">Contact Us</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+	<div class="overlay"></div>  <!--Shading-->  
+	<video autoplay muted loop playsinline="playsinline">
+<!-- 		<source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+			<source src="img/video.mp4" type="video/mp4">
+	</video>
+
+	<div class="container h-100">
+		<div class="d-flex h-100 align-items-center">
+			<div class="w-100 text-white text-left ">
+				<h1 class="display-1 shadow"><b>Endangered Species</b></h1>
+				<p class="lead">While humans taking advantages from environment for granted, more than thousands of species in the world are facing danger of losing their existance from this world.</p>
+			</div>
+			<div class="scroll text-center">
+				<a href="#section2" class="btn btn-light">Scroll Down</a>
+			</div>
+		</div>
+	</div>
+</header>
+<body>
+<section>
+	<div class="container-fluid padding" id="section2">
+		<br><br>
+		<div class="row text-center welcome">
+			<div class="col-12">
+				<h1 class="display-4">Learn more about them:</h1>
+			</div>
+		</div>
+		<hr class="my-4">
+		<div class="row no-gutters">
+			<div class="col-sm-12 col-md-6 col-lg-3 rellax">
+				<a class="imgButton" href="animal1.html"><img class="img-fluid" src="img/iconAmurLeopard.jpg"></a>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 rellax">
+				<a class="imgButton" href=""><img class="img-fluid" src="img/iconSeaTurtle.jpg"></a>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 rellax">
+				<a class="imgButton" href=""><img class="img-fluid" src="img/iconBorneanOrangUtan.jpg"></a>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 rellax">
+				<a class="imgButton" href=""><img class="img-fluid" src="img/iconBlackRhino.jpg"></a>
+			</div>
+		</div>
+		<br><hr class="my-4"><br>
+	</div>
+
+	<div class="parallax container-fluid d-flex h-100 padding">
+		<div class=" parallax-inside text-center">
+			<h1 class="display-3"><b>Who are we?</b></h1>
+		</div>
+	</div>
+
+	<div class="container-fluid padding ">
+		<div class="row content padding">
+			<p class="lead">As a group of animal enthusiasts, our team, MMF.org, <b><i>Mother earth Maintenance Fund</i></b>, is made up of zoologists, veterinarians, mammal lovers and v-pet collectors. We love every animals, and we put our love into action by founding this organization under indirect support from WWF, and we aimed to rescue every endangered animals in the world.</p>
+			<a href="aboutus.html" class="btn btn-outline-secondary">Check us out</a>
+
+		</div>
+	</div>
+	<hr class="my-4">
+	<div class="container-fluid padding">
+		<div class="row text-center welcome">
+			<div class="col-12">
+				<h1 class="display-3">Wanna help?</h1>
+				<p class="lead">Of course, there are still ways of preservation, and you can do something for them. Find out more on how you can help them with our assistance.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- CARD -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+		<div class="col-xs-12 col-sm-6">
+			<div class="card">
+				<img class="card-img-top" src="img/ways1.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Volunteerism</h4>
+					<p class="card-text">Join our volunteer team, we climb mountains and swim the oceans to serve.</p>
+					<a href="wayspreserve.html" class="btn btn-outline-secondary">I'm in!</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<div class="card">
+				<img class="card-img-top" src="img/ways2.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Donation</h4>
+					<p class="card-text">Support our fund raising programs, whether by joining our event or donates wherever you are.</p>
+					<a href="wayspreserve.html" class="btn btn-outline-secondary">How?</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<hr class="my-4">
+	<div class="container-fluid welcome padding ">
+		<div class="content row text-center ">
+			<div class="col-12">
+				<h1 class="display-3">Get in touch!</h1>
+				<hr>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<img class="img-fluid" src="img/joinUs1.jpg">
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<img class="img-fluid" src="img/joinUs2.jpg">
+			</div>
+			<div class="col-12">
+				<hr>
+				<p class="lead">Feeling interested in what we are doing? Wanna be a part of our team? Contact us to know more!</p>
+				<a href="contactus.html" class="btn btn-outline-secondary ">Tell me more</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="my-4">
+</section>
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-6">
+				<h3><b>MMF.org</b></h3>
+				<hr class="light">
+				<p>03-0328-LION</p>
+				<p>xxf@email.com</p>
+				<p>Street KFC</p>
+				<p>Petaling Jaya, Kuala Lumpur, 00000</p>
+			</div>
+			<div class="col-md-6">
+				<hr class="light">
+				<h5>Office Hours</h5>
+				<hr class="light">
+				<p>Monday: 9am - 5pm</p>
+				<p>Saturday: 12am - 1am</p>
+				<p>Sunday: Closed</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; Mother earth Maintenance Fund.Org (MMF)</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
